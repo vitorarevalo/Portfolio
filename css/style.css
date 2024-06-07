@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/rethink-sans');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+
+body, html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    background-color: #0F001B;
+}
+
+.teste{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 400px;
+    
+    height: 50px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    font-size: 1.1em;
+    list-style-type: none;
+    color: white;
+}
+
+#nav-content{
+    display: flex;
+    gap: 200px;
+}
